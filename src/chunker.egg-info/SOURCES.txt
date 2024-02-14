@@ -1,9 +1,0 @@
-setup.py
-src/chunker/__init__.py
-src/chunker/chunking_models.py
-src/chunker/text_splitter.py
-src/chunker.egg-info/PKG-INFO
-src/chunker.egg-info/SOURCES.txt
-src/chunker.egg-info/dependency_links.txt
-src/chunker.egg-info/requires.txt
-src/chunker.egg-info/top_level.txt
