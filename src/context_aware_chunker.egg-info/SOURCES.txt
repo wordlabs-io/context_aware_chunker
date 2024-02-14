@@ -1,0 +1,9 @@
+setup.py
+src/context_aware_chunker/__init__.py
+src/context_aware_chunker/chunking_models.py
+src/context_aware_chunker/text_splitter.py
+src/context_aware_chunker.egg-info/PKG-INFO
+src/context_aware_chunker.egg-info/SOURCES.txt
+src/context_aware_chunker.egg-info/dependency_links.txt
+src/context_aware_chunker.egg-info/requires.txt
+src/context_aware_chunker.egg-info/top_level.txt

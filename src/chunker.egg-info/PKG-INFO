@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: chunker
+Version: 0.0.1
+Summary: Context aware chunking using perplexity
+Author: Tanishk Kithannae
+Author-email: tanishk.kithannae@wordlabs.io
+Keywords: python,rag
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
