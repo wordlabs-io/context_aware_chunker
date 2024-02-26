@@ -1,8 +1,7 @@
 from setuptools import setup, find_packages
 
-from pathlib import Path
-this_directory = Path(__file__).parent
-long_description = (this_directory / "readme.md").read_text()
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 VERSION = '0.0.2' 
 DESCRIPTION = 'Context aware chunking using perplexity'
