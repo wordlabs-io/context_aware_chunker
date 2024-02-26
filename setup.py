@@ -1,8 +1,12 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1' 
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "readme.md").read_text()
+
+VERSION = '0.0.2' 
 DESCRIPTION = 'Context aware chunking using perplexity'
-LONG_DESCRIPTION = ''
+LONG_DESCRIPTION = long_description
 
 # Setting up
 setup(
@@ -13,6 +17,8 @@ setup(
         author_email="tanishk.kithannae@wordlabs.io",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
+        long_description_content_type = 'text/markdown',
+        url = "https://github.com/wordlabs-io/context_aware_chunker",
         packages=find_packages(where='src'),
         package_dir={'': 'src'},
         install_requires=[
