@@ -53,6 +53,8 @@ class ChunkerModel(ABC):
                 cur_segment = None
 
             if idx == len(split_text) - 2:
+                if cur_segment is None:
+                    op_segments.append(text2)
                 break
         return op_segments
 
